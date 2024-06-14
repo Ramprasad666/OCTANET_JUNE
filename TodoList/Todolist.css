@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background: rgba(114, 30, 192, 0.597);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(232, 27, 201);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color:black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px; 
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+.todo-text {
+    flex: 1; 
+    margin-left: 10px;
+}
+
+
+button.edit, button.delete, button.save {
+    background-color: #c92c39;
+    padding: 5px 10px;
+    margin-right: 1px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+button.edit:hover, button.delete:hover, button.save:hover {
+    background-color: #d61e17;
+}
+
+button.edit {
+    background-color: rgba(11, 173, 19, 0.904);
+}
+
+button.edit:hover {
+    background-color: #ec971f;
+}
+
+button.save {
+    background-color: #5bc0de;
+}
+
+button.save:hover {
+    background-color: burlywood;
+}
+
+input.edit-input {
+    width: 60%;
+    padding: 5px;
+}
